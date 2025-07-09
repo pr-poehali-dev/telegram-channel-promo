@@ -20,7 +20,12 @@ const Index = () => {
               <Icon name="Zap" className="h-8 w-8 text-white" />
               <span className="text-2xl font-bold text-white">UC Store</span>
             </div>
-            <Button className="bg-white text-orange-600 hover:bg-gray-100 font-semibold">
+            <Button
+              className="bg-white text-orange-600 hover:bg-gray-100 font-semibold"
+              onClick={() =>
+                window.open("https://t.me/vezun4ik_pubg", "_blank")
+              }
+            >
               <Icon name="Send" className="mr-2 h-4 w-4" />
               Подписаться
             </Button>
@@ -48,6 +53,9 @@ const Index = () => {
             <Button
               size="lg"
               className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4"
+              onClick={() =>
+                window.open("https://t.me/vezun4ik_pubg", "_blank")
+              }
             >
               <Icon name="Send" className="mr-2 h-5 w-5" />
               Подписаться на канал
@@ -183,6 +191,9 @@ const Index = () => {
                 <Button
                   size="lg"
                   className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-12 py-4"
+                  onClick={() =>
+                    window.open("https://t.me/vezun4ik_pubg", "_blank")
+                  }
                 >
                   <Icon name="Send" className="mr-2 h-5 w-5" />
                   Заказать в Telegram
@@ -206,6 +217,9 @@ const Index = () => {
             <Button
               size="lg"
               className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4"
+              onClick={() =>
+                window.open("https://t.me/vezun4ik_pubg", "_blank")
+              }
             >
               <Icon name="Send" className="mr-2 h-5 w-5" />
               Подписаться на канал
@@ -214,6 +228,9 @@ const Index = () => {
               size="lg"
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-orange-600 text-lg px-8 py-4"
+              onClick={() =>
+                window.open("https://t.me/vezun4ik_pubg", "_blank")
+              }
             >
               <Icon name="MessageCircle" className="mr-2 h-5 w-5" />
               Написать в личку
@@ -237,12 +254,18 @@ const Index = () => {
               <Button
                 variant="ghost"
                 className="text-white hover:text-orange-300"
+                onClick={() =>
+                  window.open("https://t.me/vezun4ik_pubg", "_blank")
+                }
               >
                 <Icon name="Send" className="h-5 w-5" />
               </Button>
               <Button
                 variant="ghost"
                 className="text-white hover:text-orange-300"
+                onClick={() =>
+                  window.open("https://t.me/vezun4ik_pubg", "_blank")
+                }
               >
                 <Icon name="MessageCircle" className="h-5 w-5" />
               </Button>
