@@ -149,26 +149,34 @@ const Index = () => {
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-gradient-to-r from-orange-500 to-red-500 rounded-lg p-6 text-white">
-                  <div className="text-2xl font-bold mb-2">60 UC</div>
-                  <div className="text-3xl font-bold mb-2">35₽</div>
-                  <div className="text-sm opacity-80">вместо 79₽</div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="bg-gradient-to-r from-orange-500 to-red-500 rounded-lg p-4 text-white">
+                  <div className="text-xl font-bold mb-2">60 UC</div>
+                  <div className="text-2xl font-bold">80₽</div>
                 </div>
-                <div className="bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg p-6 text-white">
-                  <div className="text-2xl font-bold mb-2">300 UC</div>
-                  <div className="text-3xl font-bold mb-2">150₽</div>
-                  <div className="text-sm opacity-80">вместо 379₽</div>
+                <div className="bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg p-4 text-white">
+                  <div className="text-xl font-bold mb-2">120 UC</div>
+                  <div className="text-2xl font-bold">160₽</div>
                 </div>
-                <div className="bg-gradient-to-r from-green-500 to-blue-500 rounded-lg p-6 text-white">
-                  <div className="text-2xl font-bold mb-2">1800 UC</div>
-                  <div className="text-3xl font-bold mb-2">850₽</div>
-                  <div className="text-sm opacity-80">вместо 2290₽</div>
+                <div className="bg-gradient-to-r from-green-500 to-blue-500 rounded-lg p-4 text-white">
+                  <div className="text-xl font-bold mb-2">180 UC</div>
+                  <div className="text-2xl font-bold">240₽</div>
                 </div>
-                <div className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg p-6 text-white">
-                  <div className="text-2xl font-bold mb-2">8100 UC</div>
-                  <div className="text-3xl font-bold mb-2">3500₽</div>
-                  <div className="text-sm opacity-80">вместо 9990₽</div>
+                <div className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg p-4 text-white">
+                  <div className="text-xl font-bold mb-2">240 UC</div>
+                  <div className="text-2xl font-bold">320₽</div>
+                </div>
+                <div className="bg-gradient-to-r from-pink-500 to-orange-500 rounded-lg p-4 text-white">
+                  <div className="text-xl font-bold mb-2">325 UC</div>
+                  <div className="text-2xl font-bold">400₽</div>
+                </div>
+                <div className="bg-gradient-to-r from-indigo-500 to-blue-500 rounded-lg p-4 text-white">
+                  <div className="text-xl font-bold mb-2">385 UC</div>
+                  <div className="text-2xl font-bold">480₽</div>
+                </div>
+                <div className="bg-gradient-to-r from-green-600 to-emerald-500 rounded-lg p-4 text-white md:col-span-2 lg:col-span-1">
+                  <div className="text-xl font-bold mb-2">660 UC</div>
+                  <div className="text-2xl font-bold">800₽</div>
                 </div>
               </div>
               <div className="text-center pt-6">
